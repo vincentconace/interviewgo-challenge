@@ -134,8 +134,8 @@ func (tr *TaskRequest) UpdateTask(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
 	}
-	w.WriteHeader(http.StatusAccepted)
 	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusAccepted)
 	fmt.Fprintf(w, string(data))
 }
 
