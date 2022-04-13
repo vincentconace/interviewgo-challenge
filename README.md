@@ -1,4 +1,27 @@
-# interviewgo
+# API tasks management
+
+## Run
+
+run this command from project root:
+
+```sh
+make run
+```
+This will bring up the server on the indicated port.
+
+## Run test
+run this command from project root:
+
+```sh
+make test
+```
+this command will execute all the tests of the project.
+
+## Collection postman
+
+In the collection-postman folder there is a collection to test the API from postman, download and import it.
+
+## interviewgo
 A simple exercise for a golang techincal interview
 
 
